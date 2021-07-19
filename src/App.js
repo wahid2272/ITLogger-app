@@ -7,6 +7,7 @@ import M from 'materialize-css/dist/js/materialize.min.js'
 import './App.css';
 import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
+import AddTechModal from './components/techs/AddTechModal';
 
 function App() {
   useEffect(()=> {
@@ -20,6 +21,7 @@ function App() {
         <AddButton/>
         <AddLogModal />
         <EditLogModal />
+        <AddTechModal />
         <Logs/>
       </div>
     </>

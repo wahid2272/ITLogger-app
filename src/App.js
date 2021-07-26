@@ -8,6 +8,7 @@ import './App.css';
 import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
+import TechListModal from './components/techs/TechListModal';
 
 function App() {
   useEffect(()=> {
@@ -18,11 +19,12 @@ function App() {
     <>
       <SearchBar/>
       <div className="container">
-        <AddButton/>
+        <AddButton />
         <AddLogModal />
         <EditLogModal />
         <AddTechModal />
-        <Logs/>
+        <TechListModal />
+        <Logs />
       </div>
     </>
   );
